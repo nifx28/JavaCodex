@@ -1,0 +1,8 @@
+
+$Env:Path = $Env:REDHAT_JAVA_HOME + "bin;" + $Env:Path
+
+javac -encoding UTF-8 .\YouTuber.java; cat .\Data.txt | java YouTuber
+
+javac -encoding UTF-8 .\InputTest.java; java InputTest
+
+javac -encoding UTF-8 .\UndefinedBehavior.java; java UndefinedBehavior
